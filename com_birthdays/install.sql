@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `#__birthdays`
+(`id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+`firstname` VARCHAR(20), 
+`lastname` VARCHAR(20),
+`birthday` VARCHAR(10),
+PRIMARY KEY(`id`))

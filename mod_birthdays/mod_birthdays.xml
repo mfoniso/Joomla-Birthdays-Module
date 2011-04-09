@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+<name>Birthday Module</name>
+<author>Mfoniso Ossom</author>
+<creationDate>April 2011</creationDate>
+<copyright>(C) 2011 Mfoniso Ossom. All rights reserved.</copyright>
+<license>GNU/GPL</license>
+<authorEmail>mfoniso@gmail.com</authorEmail>
+<authorUrl>www.mfoniso.com</authorUrl>
+<version>1.0.0</version>
+<description>Birthday module</description>
+<files>
+	<filename module="mod_birthdays">mod_birthdays.php</filename>
+</files>
+
+<params>
+	<param name="heading" type="text" default="Birthdays this month" label="Heading" description= "This will appear as the heading of the module" />
+	<param name="show_heading" type="radio" default="0" label="Show heading" description= "Determines whether the heading will be displayed or not">
+		<option value="0">No</option>
+		<option value="1">Yes</option>
+	</param>
+</params>
+</install>

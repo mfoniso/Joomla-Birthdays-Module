@@ -1,0 +1,5 @@
+This is a Joomla module to display birthdays.
+
+It is composed of a frontend module and a backend component for configuring the frontend module.
+The module and component should be installed via the Joomla admin interface,
+following the usual process for installing joomla modules/components.   
